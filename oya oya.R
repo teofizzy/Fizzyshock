@@ -1,0 +1,7 @@
+library(tidyverse)
+require(stats4)
+require(askpass)
+library(datasets)
+data("AirPassengers")
+summary(AirPassengers)
+plot(AirPassengers)
