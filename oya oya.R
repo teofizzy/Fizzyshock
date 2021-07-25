@@ -5,3 +5,8 @@ library(datasets)
 data("AirPassengers")
 summary(AirPassengers)
 plot(AirPassengers)
+library(jsonlite)
+library(datasets)
+data(iris)
+myjson<- toJSON(iris, pretty = TRUE)
+myjson
