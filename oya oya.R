@@ -10,3 +10,10 @@ library(datasets)
 data(iris)
 myjson<- toJSON(iris, pretty = TRUE)
 myjson
+cat(myjson)
+sapply(myjson)
+?sapply
+sapply(myjson, summary)
+iris2<-fromJSON(myjson)
+iris2
+head(iris2)
